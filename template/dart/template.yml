@@ -1,2 +1,2 @@
 language: dart
-fprocess: dart bin/main.dart
+fprocess: dart /home/app/bin/main.dart
