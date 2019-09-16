@@ -7,11 +7,13 @@ String streamReadAllSync(Stream<List<int>> stream,
   final List<int> input = [];
   int byte;
 
-  while ((byte = stdin.readByteSync()) != -1) {
+  while ((byte = stdin.readByteSync()) != -1)
     input.add(byte);
-  }
 
   final String inputStr = encoding.decode(input);
+
+  if (inputStr.isEmpty)
+    return inputStr;
 
   // Manually trim the trailing newline added in the response string
   return inputStr.substring(0, inputStr.length - 1);
