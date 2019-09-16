@@ -1,0 +1,15 @@
+name: openfaas_dart_template
+description: An OpenFaaS template for writing functions in Dart.
+version: 0.0.1
+homepage: https://github.com/adaptant-labs/openfaas-dart-template
+author: Adaptant Labs <labs@adaptant.io>
+
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+  function:
+    path: ./function
+
+executables:
+  dart-faas-function: main

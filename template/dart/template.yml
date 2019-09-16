@@ -1,0 +1,2 @@
+language: dart
+fprocess: dart bin/main.dart
