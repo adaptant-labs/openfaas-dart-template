@@ -36,7 +36,7 @@ RUN chown -R app /home/app
 
 USER app
 
-ENV fprocess="dart bin/main.dart"
+ENV fprocess="dart /home/app/bin/main.dart"
 EXPOSE 8080
 
 HEALTHCHECK --interval=3s CMD [ -e /tmp/.lock ] || exit 1

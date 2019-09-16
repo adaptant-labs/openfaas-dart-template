@@ -6,7 +6,7 @@ An OpenFaaS template for writing serverless functions in Dart.
 
 ```shell script
 $ faas-cli template pull https://github.com/adaptant-labs/openfaas-dart-template
-$ faas-cli new hellodart --language dart
+$ faas-cli new hellodart --lang dart
 ```
 ## Features and bugs
 
