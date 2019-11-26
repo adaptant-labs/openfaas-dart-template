@@ -29,8 +29,7 @@ RUN pub get --offline
 
 WORKDIR /home/app/function/
 
-RUN pub get
-RUN pub get --offline
+RUN pub get && pub get --offline
 
 RUN chown -R app /home/app
 

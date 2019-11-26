@@ -1,4 +1,4 @@
-# OpenFaaS Dart Template
+# Dart Template for OpenFaaS
 
 An OpenFaaS template for writing serverless functions in Dart.
 
